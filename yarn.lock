@@ -2305,30 +2305,10 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.2.tgz#423c77877d0569db20e1fc80885ac4118314010e"
   integrity sha512-eZxlbI8GZscaGS7kkc/trHTT5xgrjH3/1n2JDwusC9iahPKWMRvRjJSAN5mCXviuTGQ/lHnhvv8Q1YTpnfz9gA==
 
-"@typeheim/fire-auth@^0.0.0-beta.52":
-  version "0.0.0-beta.52"
-  resolved "https://registry.yarnpkg.com/@typeheim/fire-auth/-/fire-auth-0.0.0-beta.52.tgz#70948d5e6b1d0fea0fdcb05243986228aa9cbc16"
-  integrity sha512-OYUxu9Uh33SeL0fUdOkIZpg4zBL9v1qp8tp60j97iIML2kv5I+7bITcx7j/WqxGdYdJdz2vKro3SeUa8WZePlg==
-  dependencies:
-    "@typeheim/fire-rx" "^0.0.8"
-
-"@typeheim/fire-rx@^0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@typeheim/fire-rx/-/fire-rx-0.0.8.tgz#0f5159b54f3f4944fd5a51970b974027261126be"
-  integrity sha512-z8gCt0m/6BYQDhkvEP69uF8nODD01Rt/UuPVkLwQNJnMD3Y9MgPgBrl02yt+7T22Q/DQNc3BZrMYGtijShEMQg==
-
 "@typeheim/fire-rx@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@typeheim/fire-rx/-/fire-rx-0.1.0.tgz#8fe08cce995b0fb2d50889168ec74bd3802e4eb9"
   integrity sha512-z3ICX9aAM2QCNRhEc3wK6xtPAme9wa2zMnv5RPBoy8E1EkQpYS2upPcSY/LQF5R+AByaKUew6S76GcwgnKtHcw==
-
-"@typeheim/orm-on-fire@^0.0.0-beta.54":
-  version "0.0.0-beta.54"
-  resolved "https://registry.yarnpkg.com/@typeheim/orm-on-fire/-/orm-on-fire-0.0.0-beta.54.tgz#0e116073210fa1031bd775f94af780c69a1e0b86"
-  integrity sha512-OZXjou+yrfmzxVNF+Uw1EyGVeDSqfnrFOiU7VhPzQV9NTV2SFYOq7J+w+cgtOld8mse+uCvWhQY/J/VvkIHGTw==
-  dependencies:
-    "@typeheim/fire-rx" "^0.0.8"
-    reflect-metadata "^0.1.13"
 
 "@types/archiver@^5.1.0":
   version "5.1.0"
@@ -5261,17 +5241,10 @@ gitconfiglocal@^1.0.0:
   dependencies:
     ini "^1.3.2"
 
-glob-parent@^5.1.1, glob-parent@^5.1.2:
+glob-parent@^5.1.1, glob-parent@^5.1.2, glob-parent@~5.1.0:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-5.1.2.tgz#869832c58034fe68a4093c17dc15e8340d8401c4"
   integrity sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==
-  dependencies:
-    is-glob "^4.0.1"
-
-glob-parent@~5.1.0:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-5.1.1.tgz#b6c1ef417c4e5663ea498f1c45afac6916bbc229"
-  integrity sha512-FnI+VGOpnlGHWZxthPGR+QhR78fuiK0sNLkHQv+bL9fQi57lNNdquIbna/WrfROrolq8GK5Ek6BiMwqL/voRYQ==
   dependencies:
     is-glob "^4.0.1"
 
